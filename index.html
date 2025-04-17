@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My API Collection</h1>
+    <div class="controls">
+      <button id="sort-toggle" data-ascending="true">Sort Z-A</button>
+      <div id="favorites-scoreboard">Favorites Count: 0</div>
+      <div id="data-summary">Total EXP of Favorites: 0</div>
+      <button id="reset-button">Reset</button>
+    </div>
+    
+    
+   
+  </header>
+
+  <section>
+    <h2>Collection</h2>
+    <div id="collection-container" class="card-grid"></div>
+    <p id="data-summary"></p>
+  </section>
+
+  <section>
+    <h2>Favorites</h2>
+    <div id="favorites-container" class="card-grid"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
