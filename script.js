@@ -130,7 +130,7 @@ const resetBtn = document.getElementById('reset-button');
 resetBtn.addEventListener('click', () => {
   localStorage.removeItem('favorites');
   favorites = [];
-  collection = [...allPokemon]; // reset collection to full list
+  collection = [...allPokemon];
   render();
 });
 
